@@ -5,6 +5,8 @@ body
   background-color: #96E6B3;
   /*Comment */
 }
+a { color: lightblue;}
+a:hover { color: red;}
 
 header
 {
