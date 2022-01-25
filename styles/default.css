@@ -2,7 +2,7 @@ body
 {
   font-family: Tahoma, sans-serif;
   color: #F1FFFA;
-  background-color: #96E6B3;
+  background-color: #151706;
   /*Comment */
 }
 a { color: lightblue;}
@@ -13,4 +13,27 @@ header
   font-family: Courier, serif;
   text-align: center;
   color: #FFAC81;
+}
+
+main
+{
+  text-align: center;
+}
+
+footer
+{
+  text-align: center;
+}
+
+#main_left
+{
+  text-align: left;
+}
+
+
+
+.intro_wedding_pic
+{
+  width: 189px;
+  height: 252px;
 }
