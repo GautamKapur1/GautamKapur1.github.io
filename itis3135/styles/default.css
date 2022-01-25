@@ -25,15 +25,14 @@ footer
   text-align: center;
 }
 
-#main_center
+.main_center
 {
   text-align: center;
 }
 
 
-.intro_wedding_pic
+#intro_wedding_pic
 {
-  align-content: center;
   width: 189px;
   height: 252px;
 }
