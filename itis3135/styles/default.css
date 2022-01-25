@@ -27,8 +27,7 @@ footer
 
 figure
 {
-  margin: auto;
-  display: block;
+  text-align: center;
   width: 189px;
   height: 252px;
 }
