@@ -3,8 +3,9 @@ body
   font-family: Tahoma, sans-serif;
   color: #F1FFFA;
   background-color: #151706;
-  /*Comment */
+  margin: 50px 100px 50px 100px;
 }
+
 a { color: lightblue;}
 a:hover { color: red;}
 
@@ -15,17 +16,19 @@ header
   color: #FFAC81;
 }
 
-main
-{
-  text-align: left;
-}
-
 footer
 {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .main_center
 {
   text-align: center;
+}
+
+main
+{
+  margin: 25px 50px 25px 50px;
 }
