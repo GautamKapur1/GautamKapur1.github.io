@@ -1,7 +1,7 @@
 body 
 {
-  font-family: Courier, sans-serif;
-  color: #f3fcf9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5e2d9;
   background-color: #151706;
   margin: 50px 100px 50px 100px;
 }
@@ -24,6 +24,11 @@ header,footer
 .main_center
 {
   text-align: center;
+}
+
+h1,h2,h3
+{
+  font-family:'Lucida Sans', 'Trebuchet MS', sans-serif;
 }
 
 main
