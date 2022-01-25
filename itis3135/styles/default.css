@@ -31,9 +31,9 @@ footer
 }
 
 
-
 .intro_wedding_pic
 {
+  align-self: center;
   width: 189px;
   height: 252px;
 }
