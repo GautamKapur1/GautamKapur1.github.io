@@ -30,15 +30,8 @@ footer
 
 #intro_wedding_pic
 {
-  margin: auto;
+  margin: 50px auto 50px auto;
   display: block;
   width: 189px;
   height: 252px;
 }
-
-figure
-{
-  margin-top: 125px;
-  margin-bottom: 125px;
-}
-
