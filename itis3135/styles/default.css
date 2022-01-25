@@ -15,7 +15,8 @@ header
   text-align: center;
   color: #FFAC81;
   background-color: rgb(52, 40, 11);
-  padding: 20px auto 20px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer
