@@ -15,13 +15,11 @@ header,footer
   text-align: center;
   color: #FFAC81;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+
   background-color: #721121;
-  padding-top: 2px;
+  padding-top: 25px;
   padding-bottom: 20px;
 }
-
 
 .main_center
 {
@@ -35,7 +33,6 @@ header,footer
   height: 252px;
   margin: 25px auto 25px auto;
 }
-
 
 main
 {
