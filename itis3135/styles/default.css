@@ -15,9 +15,9 @@ header
   color: #FFAC81;
 }
 
-main
+.contract_main
 {
-  text-align: center;
+  text-align: left;
 }
 
 #li_main
@@ -30,7 +30,7 @@ footer
   text-align: center;
 }
 
-.intro_pic
+.intro_wedding_pic
 {
   width: 189px;
   height: 252px;
