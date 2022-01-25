@@ -15,20 +15,22 @@ header
   color: #FFAC81;
 }
 
-.contract_main
+main
 {
-  text-align: left;
-}
-
-#li_main
-{
-  text-align: left;
+  text-align: center;
 }
 
 footer
 {
   text-align: center;
 }
+
+#main_left
+{
+  text-align: left;
+}
+
+
 
 .intro_wedding_pic
 {
