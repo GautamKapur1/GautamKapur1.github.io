@@ -17,7 +17,7 @@ header
 
 main
 {
-  text-align: center;
+  text-align: left;
 }
 
 footer
@@ -25,9 +25,9 @@ footer
   text-align: center;
 }
 
-#main_left
+#main_center
 {
-  text-align: left;
+  text-align: center;
 }
 
 
