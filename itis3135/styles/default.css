@@ -16,8 +16,9 @@ header,footer
   color: #FFAC81;
   text-align: center;
   background-color: #721121;
+  border-color: blanchedalmond;
   border-style: solid;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .main_center
