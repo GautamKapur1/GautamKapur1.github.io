@@ -14,9 +14,6 @@ header
   font-family: Courier, serif;
   text-align: center;
   color: #FFAC81;
-  background-color: rgb(52, 40, 11);
-  padding-top: 5px;
-  padding-bottom: 20px;
 }
 
 footer
@@ -24,6 +21,13 @@ footer
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+header,footer
+{
+  background-color: #721121;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .main_center
