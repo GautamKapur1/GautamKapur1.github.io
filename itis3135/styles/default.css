@@ -20,6 +20,11 @@ main
   text-align: center;
 }
 
+#introduction_main
+{
+  text-align: left;
+}
+
 footer
 {
   text-align: center;
