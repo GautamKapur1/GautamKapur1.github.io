@@ -33,8 +33,7 @@ footer
 
 .intro_wedding_pic
 {
-  margin-left: auto;
-  margin-right: auto;
+  align-content: center;
   width: 189px;
   height: 252px;
 }
