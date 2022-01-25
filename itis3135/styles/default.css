@@ -9,26 +9,19 @@ body
 a { color: lightblue;}
 a:hover { color: red;}
 
-header
+header,footer
 {
   font-family: Courier, serif;
   text-align: center;
   color: #FFAC81;
-}
-
-footer
-{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-header,footer
-{
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-color: #721121;
   padding-top: 2px;
   padding-bottom: 20px;
 }
+
 
 .main_center
 {
