@@ -48,3 +48,19 @@ li
 {
   margin: 5px 5px 5px 5px;
 }
+table
+{
+  border: 1px solid black;
+}
+
+td
+{
+  border: 3px solid grey;
+  color: black;
+}
+
+th
+{
+  border: 3px solid grey;
+  color: black;
+}
