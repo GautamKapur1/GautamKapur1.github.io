@@ -51,13 +51,14 @@ li
 table
 {
   border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td
 {
   border: 1px solid grey;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 th
