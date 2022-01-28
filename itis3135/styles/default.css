@@ -73,3 +73,9 @@ figcaption
 {
   text-align: center;
 }
+
+table tr:nth-child(3) 
+{
+  background-color: #777;
+  color: #fff; 
+}
