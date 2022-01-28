@@ -93,6 +93,6 @@ form
 
 .textbox
 {
-  background-color: darkblue;
-  color: lightblue;
+  background-color: rgb(5, 5, 60);
+  color: rgb(255, 255, 123);
 }
