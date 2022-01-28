@@ -79,3 +79,8 @@ table tr:nth-child(1), tr:nth-child(3), tr:nth-child(5), tr:nth-child(7), tr:nth
   background-color: #777;
   color: #fff; 
 }
+
+form 
+{
+  text-align: center;
+}
