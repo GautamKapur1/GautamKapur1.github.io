@@ -55,13 +55,8 @@ table
   margin-right: auto;
 }
 
-td
+td, th
 {
   border: 1px solid grey;
   padding: 10px 20px 10px 20px;
-}
-
-th
-{
-  border: 1px solid grey;
 }
