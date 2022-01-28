@@ -74,7 +74,7 @@ figcaption
   text-align: center;
 }
 
-table tr:nth-child(3) 
+table tr:nth-child(1), :nth-child(3)
 {
   background-color: #777;
   color: #fff; 
