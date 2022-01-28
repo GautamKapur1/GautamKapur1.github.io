@@ -84,3 +84,9 @@ form
 {
   text-align: center;
 }
+
+button
+{
+  background-color: rgba(36, 30, 30, 0.872);
+  color: #f1ff3f
+}
