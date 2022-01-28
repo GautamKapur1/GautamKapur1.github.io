@@ -74,7 +74,7 @@ figcaption
   text-align: center;
 }
 
-table tr:nth-child(1), tr:nth-child(3), tr:nth-child(5), tr:nth-child(7)
+table tr:nth-child(1), tr:nth-child(3), tr:nth-child(5), tr:nth-child(7), tr:nth-child(9)
 {
   background-color: #777;
   color: #fff; 
