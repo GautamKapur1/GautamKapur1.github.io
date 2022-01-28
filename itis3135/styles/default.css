@@ -100,5 +100,5 @@ input[type = checked]
 {
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: rgb(222, 8, 8);
 }
