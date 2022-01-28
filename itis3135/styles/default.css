@@ -60,3 +60,5 @@ td, th
   border: 1px solid grey;
   padding: 10px 20px 10px 15px;
 }
+
+th { text-align: center; }
