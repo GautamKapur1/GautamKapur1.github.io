@@ -83,6 +83,9 @@ table tr:nth-child(odd)
 form 
 {
   text-align: center;
+  background-color: #d6c5ba;
+  border-color: #ce9b8e;
+  border-style: inset;
 }
 
 #button
