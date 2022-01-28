@@ -98,3 +98,9 @@ form
   color: rgb(255, 255, 123);
   border-color: green;
 }
+
+.checkbox
+{
+  border-width: 3px;
+  border-color: green;
+}
