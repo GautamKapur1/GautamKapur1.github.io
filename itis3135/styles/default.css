@@ -66,4 +66,5 @@ th { text-align: center; }
 #center_list
 {
   text-align: center;
+  list-style-position: inside;
 }
