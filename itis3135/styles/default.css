@@ -6,8 +6,13 @@ body
   margin: 50px 100px 50px 100px;
 }
 
-a { color: lightblue;}
+a 
+{ 
+  color: rgb(173, 230, 195); 
+  text-decoration: none;
+}
 a:hover { color: red;}
+a:visited { color: rgb(173, 230, 195);}
 
 header,footer
 {
@@ -105,5 +110,3 @@ form
 {
   text-decoration: none;
 }
-
-/* a color, a hover, a visted changed */
