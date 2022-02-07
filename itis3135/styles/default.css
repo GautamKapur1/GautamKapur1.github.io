@@ -52,6 +52,7 @@ li
 {
   margin: 5px 5px 5px 5px;
 }
+
 table
 {
   border: 1px solid black;
@@ -103,9 +104,4 @@ form
   color: rgb(255, 255, 123);
   border-color: green;
   font-weight: 900;
-}
-
-.piclink 
-{
-  text-decoration: none;
 }
