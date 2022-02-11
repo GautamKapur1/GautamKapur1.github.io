@@ -21,12 +21,13 @@
                     
                     function getName()
                     {
-                        let firstname = document.getElementById("firstname").value;
-                        document.write("<h1>" + firstname + "</h1>");
+                        let name = document.getElementById("name").value;
+                        let feeling = document.getElementById("feeling").value;
+                        window.print("<p> The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + ".</p>");
                     }
                 </script>
 
-                What's your first name: <input type = "text" id = "firstname" name = "firstname" />
+                What's your name: <input type = "text" id = "name" name = "name" />
                 <br />
                 How are you feeling today? <input type = "text" id = "feeling" name = "feeling" />
                 <br />
