@@ -37,10 +37,15 @@
             </p>
 
             <script>
-                var today = new Date();
-                var day = today.getDay();
-                var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-                document.write("<h3>Today is " + today.toDateString);
+                
+                const date = new Date();
+                const n = date.toDateString();
+                const time = date.toLocaleTimeString();
+
+                console.log('Date: ' + n);
+
+                console.log('Time: ' + time);
+                document.write("<h3>Today is " + n);
             </script>
 
             <br />
