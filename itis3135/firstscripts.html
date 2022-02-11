@@ -38,7 +38,9 @@
 
             <script>
                 var today = new Date();
-                document.write(today);
+                var day = today.getDay();
+                var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+                document.write("<h3>Today is " + " on " + daylist[day] + ", " + "</h3>");
             </script>
 
             <br />
