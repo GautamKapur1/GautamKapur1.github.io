@@ -31,9 +31,17 @@
                 <br />
                 Enter amount of kiwis you would like to buy: <input type = "number" id = "kiwiAmnt" name = "kiwiAmnt" value = "3" min = "0" />
                 <br />
-                <button onclick = calcCost(); type = "button" name = "button" id = "button">Total Cost</button>
+                <button onclick = calcCost(); type = "button" name = "calcCost" id = "calcCost">Calculate Cost</button>
                 <br />
                 <p id = "calculateCost"></p>
+
+                <br />
+                <button onclick = calcTax(); type = "button" name = "calcTax" id = "calcTax">Calculate Tax</button>
+                <br />
+                <p id = "calculateTax"></p>
+                <br />
+
+
 
                 <input type = "reset" name = "reset" id = "reset" />
             </form>
