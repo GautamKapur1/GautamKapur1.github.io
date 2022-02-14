@@ -40,13 +40,13 @@
             </h2>
             
             <p>
-                <script>
+                <script type = "text/javascript">
                     
-                    function getName()
+                    function getNameAndFeeling()
                     {
                         let name = document.getElementById("name").value;
                         let feeling = document.getElementById("feeling").value;
-                        document.write("<p> The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + ".</p>");
+                        window.write("<p> The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + ".</p>");
                     }
                 </script>
 
@@ -54,7 +54,8 @@
                 <br />
                 How are you feeling today? <input type = "text" id = "feeling" name = "feeling" value = "feeling" />
                 <br />
-                <button onclick = getName(); type = "button" name = "button" id = "button">Hit Me!</button>
+
+                <button onclick = getNameAndFeeling(); type = "button" name = "button" id = "button">Hit Me!</button>
                 <input type = "reset" name = "reset" id = "reset" />
 
             </p>
