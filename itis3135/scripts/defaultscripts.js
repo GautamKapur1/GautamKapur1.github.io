@@ -40,10 +40,14 @@ function calcCost()
     document.getElementById("calculateCost").innerHTML = message;
 }
 
-function calcTax(cost)
+function calcTax()
 {
     let kiwiTax = document.getElementById("kiwiTax").value;
     kiwiTax /= 100;
+    let kiwiCost = document.getElementById("kiwiCost").value;
+    let kiwiAmnt = document.getElementById("kiwiAmnt").value;
+    let cost = kiwiCost * kiwiAmnt;
+    cost = parseFloat(cost.toFixed(2));
     let costAfterTax = cost - (cost * kiwiTax);
     let message = "The total cost after tax is: $" + parseFloat(costAfterTax.toFixed(2));
     document.getElementById("calculateTax").innerHTML = message;
