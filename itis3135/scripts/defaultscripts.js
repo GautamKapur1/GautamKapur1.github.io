@@ -28,7 +28,7 @@ function greeting()
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
     let message = "The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
-    document.getElementById("greetingMessage").innerHTML = message;
+    document.getElementById("greeting").innerHTML = message;
 }
 
 function calcCost()
