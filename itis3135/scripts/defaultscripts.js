@@ -37,7 +37,7 @@ function calcCost()
     let kiwiAmnt = document.getElementById("kiwiAmnt").value;
     let cost = kiwiCost * kiwiAmnt;
     let message = "The total cost is: $" + parseFloat(cost.toFixed(2));
-    calcCost(cost);
+    calcTax(cost);
     document.getElementById("calculateCost").innerHTML = message;
 }
 
