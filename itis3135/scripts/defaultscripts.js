@@ -39,3 +39,8 @@ function calcCost()
     let message = "The total cost is: $" + parseFloat(cost.toFixed(2));
     document.getElementById("calculateCost").innerHTML = message;
 }
+
+function calcTax()
+{
+
+}
