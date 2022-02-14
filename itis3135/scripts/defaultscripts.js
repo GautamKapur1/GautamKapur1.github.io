@@ -49,8 +49,3 @@ function calcTax(cost)
     let message = "The total cost after tax is: $" + parseFloat(costAfterTax.toFixed(2));
     document.getElementById("calculateTax").innerHTML = message;
 }
-
-function testBug()
-{
-    alert("test");
-}
