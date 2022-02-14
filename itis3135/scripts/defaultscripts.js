@@ -58,7 +58,7 @@ function randomInsult()
     let insultList = new Array(
         "Want to know one difference between a kiwi and your mother? Kiwis don't belong in the streets.", 
         "Want to know one similarity between a kiwi and your grandmother? Both look like a disembodied testicle.",
-        "Kiwis are so sweet and tasty. Everybody loves them. No wonder nobody ever calls you a kiwi."
+        "Kiwis are so sweet and tasty. Everybody loves them. There is a reason God did not turn you into a kiwi."
         );
 
     let randNum = Math.floor(Math.random() * insultList.length);   
