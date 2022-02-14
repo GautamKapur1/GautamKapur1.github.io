@@ -30,3 +30,4 @@ function greeting()
     let message = "The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
     document.getElementById("greeting").innerHTML = message;
 }
+
