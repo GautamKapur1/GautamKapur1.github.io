@@ -18,16 +18,17 @@
             </h2>
             <h3 id = "printDate"></h3>
             
-            <p>
+            <form>
                 What's your name: <input type = "text" id = "name" name = "name" value = "name" />
                 <br />
                 How are you feeling today? <input type = "text" id = "feeling" name = "feeling" value = "feeling" />
                 <br />
-
-                <button onclick = getNameAndFeeling(); type = "button" name = "button" id = "button">Hit Me!</button>
+                <button onclick = greeting(); type = "button" name = "button" id = "button">Hit Me!</button>
                 <input type = "reset" name = "reset" id = "reset" />
 
-            </p>
+                <p id = "greeting"></p>
+
+            </form>
             <br />
         </main>
 
