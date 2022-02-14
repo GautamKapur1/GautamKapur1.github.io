@@ -18,5 +18,7 @@ function printDate()
         ampm = "pm";
     }
 
-    document.write("<h3>Today is " + hours + ":" + minutes + ampm + " on " + weekdayList[day] + ", " + date + " " + monthList[month] + ", " + year + "</h3>");
+    dateString = "Today is " + hours + ":" + minutes + ampm + " on " + weekdayList[day] + ", " + date + " " + monthList[month] + ", " + year;
+    
+    document.getElementById("printDate").innerHTML = dateString;
 }
