@@ -23,12 +23,13 @@
                 <br />
                 How are you feeling today? <input type = "text" id = "feeling" name = "feeling" value = "amazing" />
                 <br />
-                <button onclick = greeting(); type = "button" name = "greeting" id = "greetingButton">Greeting!</button>
-                
-                <p id = "greeting"></p>
+                <button onclick = greeting(); type = "button" name = "greeting" id = "greeting">Greeting!</button>
+                <p id = "greetingMessage"></p>
 
-            
-                <button  type = "button" name = "button" id = "button">Hit Me!</button>
+                Enter the cost of 1 kiwi (in USD): <input type = "number" id = "kiwiCost" name = "kiwiCost" value = "5.27" />
+                Enter amount of kiwis you would like to buy: <input type = "number" id = "kiwiAmnt" name = "kiwiAmnt" value = "5.27" />
+                <button onclick = calcCost(); type = "button" name = "button" id = "button">Total Cost</button>
+                <p id = "calculateCost"></p>
 
                 <input type = "reset" name = "reset" id = "reset" />
             </form>

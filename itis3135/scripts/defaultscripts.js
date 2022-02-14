@@ -28,6 +28,14 @@ function greeting()
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
     let message = "The Golden Kiwi welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
-    document.getElementById("greeting").innerHTML = message;
+    document.getElementById("greetingMessage").innerHTML = message;
 }
 
+function calcCost()
+{
+    let kiwiCost = document.getElementById("kiwiCost").value;
+    let kiwiAmnt = document.getElementById("kiwiAmnt").value;
+    let cost = kiwiCost * kiwiAmnt;
+    let message = "The total cost is: $" + parseFloat(cost.toFixed(2));
+    document.getElementById("calculateCost").innerHTML = message;
+}
