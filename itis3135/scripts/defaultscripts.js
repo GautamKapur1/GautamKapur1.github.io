@@ -1,17 +1,17 @@
 function printDate()
 {
-    var today = new Date()
-    var year = today.getFullYear();
-    var month = today.getMonth() + 1;
-    var day = today.getDay();
-    var date = today.getDate();
-    var hours = today.getHours();
-    var minutes = today.getMinutes();
+    let today = new Date()
+    let year = today.getFullYear();
+    let month = today.getMonth() + 1;
+    let day = today.getDay();
+    let date = today.getDate();
+    let hours = today.getHours();
+    let minutes = today.getMinutes();
 
-    var monthList = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
-    var weekdayList = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+    let monthList = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+    let weekdayList = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
 
-    var ampm = "am";
+    let ampm = "am";
     if(hours >= 12)
     {
         hours = hours % 12;
@@ -51,4 +51,16 @@ function calcTax()
     let costAfterTax = cost + (cost * kiwiTax);
     let message = "The total cost after tax is: $" + parseFloat(costAfterTax.toFixed(2));
     document.getElementById("calculateTax").innerHTML = message;
+}
+
+function randomInsult()
+{
+    let insultList = new Array(
+        "Want to know one difference between a kiwi and your mother?\nKiwis don't belong in the streets.", 
+        "Want to know one similarity between a kiwi and your grandmother?\nBoth look like a disembodied testicle.",
+        "Kiwis are so sweet and tasty. Everybody loves them. No wonder nobody ever calls you a kiwi."
+        );
+
+    let randNum = Math.floor(Math.random() * insultList.length);   
+    document.getElementById("randomInsult").innerHTML = insultList[randNum];
 }
