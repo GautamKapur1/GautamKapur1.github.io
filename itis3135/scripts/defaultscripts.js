@@ -57,8 +57,8 @@ function randomFact()
 {
     let factList = new Array(
         "Kiwis are fruits, but they are also a bird species!", 
-        "", 
-        ""
+        "California produces 98% of all kiwis grown in the United States!", 
+        "China grows over 400 varieties of kiwis!"
         );
 
     let randNum = Math.floor(Math.random() * factList.length);   
