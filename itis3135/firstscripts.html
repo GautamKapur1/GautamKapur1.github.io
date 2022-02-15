@@ -43,7 +43,7 @@
                 <br />
                 <br />
 
-                Enter the tax: <input type = "number" id = "kiwiTax" name = "kiwiTax" value = "4.50" min = "0" step = "0.01" />%
+                Enter the tax: <input type = "number" id = "kiwiTax" name = "kiwiTax" value = "4.50" min = "0" step = "0.01" /> %
                 <br />
                 <button onclick = "calcTax();" type = "button" name = "calcTax" id = "calcTax">Calculate Tax</button>
                 <br />
@@ -52,9 +52,21 @@
                 <br />
                 <br />
 
-                <button onclick = "randomInsult();" type = "button" name = "randInsult" id = "randInsult">Click Here To Get Insulted :)</button>
+                <button onclick = "randomInsult();" type = "button" name = "randInsult" id = "randInsult">Get Insulted</button>
                 <br />
                 <p id = "randomInsult"></p>
+
+                <br />
+                <br />
+
+                How many kiwis does Bob have? <input type = "number" id = "kiwiPerson1" name = "kiwiPerson1" value = "3" min = "0" step = "1" /> 
+                <br />
+                How many kiwis does Chubbles have? <input type = "number" id = "kiwiPerson2" name = "kiwiPerson2" value = "5" min = "0" step = "1" /> 
+                <br />
+                <button onclick = "addKiwis();" type = "button" name = "addKiwis" id = "addKiwis">Add The Kiwis</button>
+                <br />
+                <p id = "addKiwi"></p>
+
             </div>
         </main>
 
