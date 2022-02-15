@@ -67,9 +67,18 @@ function randomInsult()
 
 function addKiwis()
 {
-    let person1 = document.getElementById("kiwiPerson1").value;
-    let person2 = document.getElementById("kiwiPerson2").value;
+    let person1 = document.getElementById("addKiwiPerson1").value;
+    let person2 = document.getElementById("addKiwiPerson2").value;
     let total = parseInt(person1) + parseInt(person2);
     let message = "Total amount of kiwis: " + total + " kiwis";
     document.getElementById("addKiwi").innerHTML = message;
+}
+
+function subtractKiwis()
+{
+    let person1 = document.getElementById("subKiwiPerson1").value;
+    let person2 = document.getElementById("subKiwiPerson2").value;
+    let total = parseInt(person1) - parseInt(person2);
+    let message = "Bob now has " + total + " kiwis left :(";
+    document.getElementById("subtractKiwi").innerHTML = message;
 }
