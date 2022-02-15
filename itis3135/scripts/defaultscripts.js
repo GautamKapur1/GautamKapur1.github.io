@@ -69,7 +69,7 @@ function addKiwis()
 {
     let person1 = document.getElementById("kiwiPerson1").value;
     let person2 = document.getElementById("kiwiPerson2").value;
-    let total = person1 + person2;
-    let message = "Total amount of kiwis: " + total + "kiwis";
+    let total = parseInt(person1) + parseInt(person2);
+    let message = "Total amount of kiwis: " + total + " kiwis";
     document.getElementById("addKiwi").innerHTML = message;
 }
