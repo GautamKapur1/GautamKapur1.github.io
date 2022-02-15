@@ -53,16 +53,16 @@ function calcTax()
     document.getElementById("calculateTax").innerHTML = message;
 }
 
-function randomInsult()
+function randomFact()
 {
-    let insultList = new Array(
-        "Want to know one difference between a kiwi and your mother? Kiwis don't belong in the streets.", 
-        "Want to know one similarity between a kiwi and your grandmother? Both look like a disembodied testicle.",
-        "Kiwis are so sweet and tasty. Everybody loves them. There is a reason God did not turn you into a kiwi."
+    let factList = new Array(
+        "Kiwis are fruits, but they are also a bird species!", 
+        "", 
+        ""
         );
 
-    let randNum = Math.floor(Math.random() * insultList.length);   
-    document.getElementById("randomInsult").innerHTML = insultList[randNum];
+    let randNum = Math.floor(Math.random() * factList.length);   
+    document.getElementById("randomFact").innerHTML = factList[randNum];
 }
 
 function addKiwis()
