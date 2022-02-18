@@ -89,7 +89,6 @@ table tr:nth-child(odd)
 form 
 {
   text-align: center;
-  
 }
 
 .button
@@ -105,3 +104,4 @@ form
   border-color: green;
   font-weight: 900;
 }
+
