@@ -20,12 +20,12 @@ function validateNum(_guess)
         }
         else
         {
-            polygonName(number);
+            getShape(number);
         }
     }
 }
 
-function polygonName(sides)
+function getShape(sides)
 {
     var polygonList = new Array(
         "Henagon", 
