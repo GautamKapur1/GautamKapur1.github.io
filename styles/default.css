@@ -6,8 +6,12 @@ body
   margin: 50px 100px 50px 100px;
 }
 
-a { color: lightblue;}
-a:hover { color: red;}
+a 
+{ 
+  color: rgb(173, 230, 195); 
+  text-decoration: none;
+}
+a:hover { color: rgb(30, 105, 235);}
 
 header,footer
 {
