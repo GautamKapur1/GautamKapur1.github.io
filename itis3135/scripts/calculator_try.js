@@ -1,21 +1,21 @@
-clearButton()
+function clearButton()
 {
     var calcOutput = 0;
     console.log(calcOutput);
     document.getElementById("calcLabel").innerHTML = calcOutput;
 }
 
-absValueButton()
+function absValueButton()
 {
 
 }
 
-percentButton()
+function percentButton()
 {
 
 }
 
-divisionButton()
+function divisionButton()
 {
 
 }
