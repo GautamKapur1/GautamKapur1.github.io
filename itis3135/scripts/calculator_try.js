@@ -20,7 +20,7 @@ function divisionButton()
 
 function sevenButton()
 {
-    if (document.getElementById("calcLabel") == 0)
+    if (parseInt(document.getElementById("calcLabel")) == 0)
     {
         document.getElementById("calcLabel").innerHTML = 7;
     }
