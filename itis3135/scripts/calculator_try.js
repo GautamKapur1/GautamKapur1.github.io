@@ -36,6 +36,7 @@ function subtractionButton()
     }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[1];
+    justClickedOperation = true;
 }
 
 function multiplicationButton()
@@ -48,6 +49,7 @@ function multiplicationButton()
     }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[2];
+    justClickedOperation = true;
 }
 
 function divisionButton()
@@ -60,6 +62,7 @@ function divisionButton()
     }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[3];
+    justClickedOperation = true;
 }
 
 function equalButton()
