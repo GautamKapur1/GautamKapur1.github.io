@@ -1,5 +1,5 @@
 var memory = 0;
-var totalAfterOperation = 0;
+var totalAfterOperation = null;
 var operationList = new Array("addition", "subtraction", "multiplication", "division");
 var operation = "none";
 
@@ -17,16 +17,19 @@ function additionButton()
 function subtractionButton()
 {
     memory = document.getElementById("calcLabel").innerHTML;
+    operation = operationList[1];
 }
 
 function multiplicationButton()
 {
     memory = document.getElementById("calcLabel").innerHTML;
+    operation = operationList[2];
 }
 
 function divisionButton()
 {
     memory = document.getElementById("calcLabel").innerHTML;
+    operation = operationList[3];
 }
 
 function equalButton()
@@ -42,15 +45,15 @@ function computeFunction(value, operationType)
     }
     else if (operationType == "subtraction")
     {
-        totalAfterOperation = memory - value;
+        totalAfterOperation = parseFloat(memory) - parseFloat(value);
     }
     else if (operationType == "multiplication")
     {
-        totalAfterOperation = memory * value;
+        totalAfterOperation = parseFloat(memory) * parseFloat(value);
     }
     else if (operationType == "division")
     {
-        totalAfterOperation = memory / value;
+        totalAfterOperation = parseFloat(memory) / parseFloat(value);
     }
 }
 
