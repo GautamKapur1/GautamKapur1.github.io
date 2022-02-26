@@ -18,18 +18,20 @@
                 Calculator Try
             </h2>
             <div style = "text-align: center;">
-                <input type = "number" id = "enterNum" name = "enterNum" class = "textbox" placeholder = "0" />
-                
+                <!--
+                    <input type = "number" id = "enterNum" name = "enterNum" class = "textbox" placeholder = "0" />
+                -->
+
                 <p id = "calcOutput">
-                    Calculator Display
+                    3 
                 </p>
 
                 <table>
                     <tr>
-                        <th><button type = "button" name = "clear" id = "clear">Clear</button></th>
-                        <th><button type = "button" name = "absolutevalue" id = "absolutevalue">+/-</button></th>
-                        <th><button type = "button" name = "percent" id = "percent">%</button></th>
-                        <th><button type = "button" name = "divison" id = "division">/</button></th>
+                        <th><button onclick = "clearButton();" type = "button" name = "clear" id = "clear">Clear</button></th>
+                        <th><button onclick = "absValueButton();" type = "button" name = "absolutevalue" id = "absolutevalue">+/-</button></th>
+                        <th><button onclick = "percentButton();" type = "button" name = "percent" id = "percent">%</button></th>
+                        <th><button onclick = "divisionButton();" type = "button" name = "divison" id = "division">/</button></th>
                     </tr>
                     <tr>
                         <th><button type = "button" name = "seven" id = "seven">7</button></th>
