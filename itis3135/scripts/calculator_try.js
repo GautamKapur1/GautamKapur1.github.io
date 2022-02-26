@@ -22,6 +22,7 @@ function additionButton()
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
     memory = document.getElementById("calcLabel").innerHTML;
+    console.log(memory);
     operation = operationList[0];
     justClickedOperation = true;
 }
