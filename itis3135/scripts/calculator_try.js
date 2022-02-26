@@ -20,5 +20,12 @@ function divisionButton()
 
 function sevenButton()
 {
-    document.getElementById("calcLabel").innerHTML += 7;
+    if (document.getElementById("calcLabel") == 0)
+    {
+        document.getElementById("calcLabel").innerHTML = 7;
+    }
+    else 
+    {
+        document.getElementById("calcLabel").innerHTML += 7;
+    }
 }
