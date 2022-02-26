@@ -1,8 +1,57 @@
 var memory = 0;
+var totalAfterOperation = 0;
+var operationList = new Array("addition", "subtraction", "multiplication", "division");
+var operation = "none";
 
 function clearButton()
 {
     document.getElementById("calcLabel").innerHTML = 0;
+}
+
+function additionButton()
+{
+    memory = document.getElementById("calcLabel").innerHTML;
+    operation = operationList[0];
+}
+
+function subtractionButton()
+{
+    memory = document.getElementById("calcLabel").innerHTML;
+}
+
+function multiplicationButton()
+{
+    memory = document.getElementById("calcLabel").innerHTML;
+}
+
+function divisionButton()
+{
+    memory = document.getElementById("calcLabel").innerHTML;
+}
+
+function equalButton()
+{
+    console.log(totalAfterOperation);
+}
+
+function computeFunction(value, operationType)
+{
+    if (operationType == "addition")
+    {
+        totalAfterOperation = memory + value;
+    }
+    else if (operationType == "subtraction")
+    {
+        totalAfterOperation = memory - value;
+    }
+    else if (operationType == "multiplication")
+    {
+        totalAfterOperation = memory * value;
+    }
+    else if (operationType == "division")
+    {
+        totalAfterOperation = memory / value;
+    }
 }
 
 function absValueButton()
@@ -27,33 +76,6 @@ function decimalButton()
     }
 }
 
-function additionButton()
-{
-    console.log(memory);
-    memory = document.getElementById("calcLabel").innerHTML;
-    document.getElementById("calcLabel").innerHTML = "+";
-}
-
-function subtractionButton()
-{
-    var value = document.getElementById("calcLabel").innerHTML;
-}
-
-function multiplicationButton()
-{
-    var value = document.getElementById("calcLabel").innerHTML;
-}
-
-function divisionButton()
-{
-    var value = document.getElementById("calcLabel").innerHTML;
-}
-
-function equalButton()
-{
-
-}
-
 function zeroButton()
 {
 
@@ -66,6 +88,7 @@ function zeroButton()
         
         document.getElementById("calcLabel").innerHTML += 0;
     }
+    computeFunction(0, operation)
 }
 
 function oneButton()
@@ -80,6 +103,7 @@ function oneButton()
         
         document.getElementById("calcLabel").innerHTML += 1;
     }
+    computeFunction(1, operation)
 }
 
 function twoButton()
