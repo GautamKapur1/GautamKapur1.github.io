@@ -15,7 +15,32 @@ function percentButton()
     document.getElementById("calcLabel").innerHTML = percent;
 }
 
+function decimalButton()
+{
+
+}
+
+function equalButton()
+{
+    
+}
+
 function divisionButton()
+{
+
+}
+
+function multiplicationButton()
+{
+
+}
+
+function subtractionButton()
+{
+
+}
+
+function additionButton()
 {
 
 }
