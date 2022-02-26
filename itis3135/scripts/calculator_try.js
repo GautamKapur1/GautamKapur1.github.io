@@ -1,7 +1,7 @@
 clearButton()
 {
     var calcOutput = 0;
-    document.getElementById("calcOutput").innerHTML = calcOutput;
+    document.getElementById("calcLabel").innerHTML = calcOutput;
 }
 
 absValueButton()
