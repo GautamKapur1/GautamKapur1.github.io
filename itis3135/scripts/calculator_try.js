@@ -17,17 +17,17 @@ function percentButton()
 
 function decimalButton()
 {
-    var number = document.getElementById("calcLabel").innerHTML;
-    if (!number.includes("."))
+    var value = document.getElementById("calcLabel").innerHTML;
+    if (!value.includes("."))
     {
-        var decimal = number + ".";
+        var decimal = value + ".";
         document.getElementById("calcLabel").innerHTML = decimal;
     }
 }
 
 function additionButton()
 {
-
+    var 
 }
 
 function subtractionButton()
