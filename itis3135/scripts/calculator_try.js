@@ -5,7 +5,8 @@ function clearButton()
 
 function absValueButton()
 {
-
+    var absValueNum = parseInt(document.getElementById("calcLabel").innerHTML) * -1;
+    document.getElementById("calcLabel").innerHTML = absValueNum;
 }
 
 function percentButton()
