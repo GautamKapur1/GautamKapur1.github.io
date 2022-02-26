@@ -13,10 +13,10 @@ function clearButton()
 
 function additionButton()
 {
-    var currVal = document.getElementById("calcLabel").innerHTML
-    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
+        var currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
     memory = document.getElementById("calcLabel").innerHTML;
@@ -25,10 +25,10 @@ function additionButton()
 
 function subtractionButton()
 {
-    var currVal = document.getElementById("calcLabel").innerHTML
-    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
+        var currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
     memory = document.getElementById("calcLabel").innerHTML;
@@ -37,10 +37,10 @@ function subtractionButton()
 
 function multiplicationButton()
 {
-    var currVal = document.getElementById("calcLabel").innerHTML
-    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
+        var currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
     memory = document.getElementById("calcLabel").innerHTML;
@@ -49,10 +49,10 @@ function multiplicationButton()
 
 function divisionButton()
 {
-    var currVal = document.getElementById("calcLabel").innerHTML
-    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
+        var currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
     memory = document.getElementById("calcLabel").innerHTML;
