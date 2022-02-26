@@ -29,9 +29,9 @@ function decimalButton()
 
 function additionButton()
 {
+    console.log(memory);
     memory = document.getElementById("calcLabel").innerHTML;
     document.getElementById("calcLabel").innerHTML = "+";
-    console.log(memory);
 }
 
 function subtractionButton()
@@ -169,7 +169,7 @@ function sevenButton()
 function eightButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || isNaN())
     {
         document.getElementById("calcLabel").innerHTML = 8;
     }
