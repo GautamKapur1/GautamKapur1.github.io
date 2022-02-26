@@ -103,3 +103,8 @@ form
   font-weight: 900;
 }
 
+.calcOutput
+{
+  background-color: rgb(11, 1, 1);
+  color: rgb(244, 237, 237); 
+}
