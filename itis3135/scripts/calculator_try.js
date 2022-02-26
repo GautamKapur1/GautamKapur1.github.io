@@ -17,12 +17,13 @@ function percentButton()
 
 function decimalButton()
 {
-
+    var decimal = parseFloat(document.getElementById("calcLabel")).innerHTML += ".";
+    document.getElementById("calcLabel").innerHTML = decimal;
 }
 
 function equalButton()
 {
-    
+
 }
 
 function divisionButton()
