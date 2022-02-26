@@ -25,12 +25,12 @@ function decimalButton()
         var decimal = value + ".";
         document.getElementById("calcLabel").innerHTML = decimal;
     }
-    memory += 2;
 }
 
 function additionButton()
 {
-    var value = document.getElementById("calcLabel").innerHTML;
+    memory = document.getElementById("calcLabel").innerHTML;
+    document.getElementById("calcLabel").innerHTML = "+";
     console.log(memory);
 }
 
