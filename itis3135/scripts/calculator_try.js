@@ -70,9 +70,7 @@ function equalButton()
     if(totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-        console.log(memory);
     } 
-    memory = 0;
     totalAfterOperation = null;
     operation = "none";
     justClickedOperation = false;
