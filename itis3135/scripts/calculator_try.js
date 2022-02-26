@@ -23,18 +23,30 @@ function additionButton()
 
 function subtractionButton()
 {
+    if (totalAfterOperation != null)
+    {
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[1];
 }
 
 function multiplicationButton()
 {
+    if (totalAfterOperation != null)
+    {
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[2];
 }
 
 function divisionButton()
 {
+    if (totalAfterOperation != null)
+    {
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[3];
 }
