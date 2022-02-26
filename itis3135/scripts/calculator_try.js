@@ -64,6 +64,9 @@ function divisionButton()
 
 function equalButton()
 {
+    var currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
+    
     if(totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
