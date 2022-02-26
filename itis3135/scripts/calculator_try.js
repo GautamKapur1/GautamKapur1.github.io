@@ -27,7 +27,7 @@ function decimalButton()
 
 function additionButton()
 {
-    var 
+    
 }
 
 function subtractionButton()
