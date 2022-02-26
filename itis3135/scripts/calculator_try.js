@@ -2,6 +2,7 @@ var memory = 0;
 var totalAfterOperation = null;
 var operationList = new Array("addition", "subtraction", "multiplication", "division");
 var operation = "none";
+var justClickedOperation = false;
 
 function clearButton()
 {
@@ -9,6 +10,7 @@ function clearButton()
     memory = 0;
     totalAfterOperation = null;
     operation = "none";
+    justClickedOperation = false;
 }
 
 function additionButton()
@@ -21,6 +23,7 @@ function additionButton()
     }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[0];
+    justClickedOperation = true;
 }
 
 function subtractionButton()
@@ -123,10 +126,10 @@ function zeroButton()
 
 function oneButton()
 {
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || justClickedOperation)
     {
         document.getElementById("calcLabel").innerHTML = 1;
-        console.log("hi");
+        justClickedOperation = false;
     }
     else 
     { 
