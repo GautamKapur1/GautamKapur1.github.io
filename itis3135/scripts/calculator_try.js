@@ -126,6 +126,7 @@ function oneButton()
     if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
     {
         document.getElementById("calcLabel").innerHTML = 1;
+        console.log("hi");
     }
     else 
     { 
