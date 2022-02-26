@@ -1,6 +1,6 @@
 clearButton()
 {
-    var calcOutput = "0";
+    var calcOutput = 0;
     document.getElementById("calcOutput").innerHTML = calcOutput;
 }
 
