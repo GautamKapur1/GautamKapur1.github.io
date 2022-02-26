@@ -11,7 +11,8 @@ function absValueButton()
 
 function percentButton()
 {
-
+    var percent = parseInt(document.getElementById("calcLabel").innerHTML) * .01;
+    document.getElementById("calcLabel").innerHTML = percent;
 }
 
 function divisionButton()
