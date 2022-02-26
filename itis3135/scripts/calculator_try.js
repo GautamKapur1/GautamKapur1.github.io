@@ -66,11 +66,16 @@ function equalButton()
 {
     var currVal = document.getElementById("calcLabel").innerHTML
     computeFunction(currVal, operation);
-    
+
     if(totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-    }  
+        console.log(memory);
+    } 
+    memory = 0;
+    totalAfterOperation = null;
+    operation = "none";
+    justClickedOperation = false;
 }
 
 function computeFunction(value, operationType)
