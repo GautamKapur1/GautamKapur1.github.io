@@ -1,4 +1,4 @@
-var memory = 10;
+var memory = 0;
 
 function clearButton()
 {
@@ -25,12 +25,13 @@ function decimalButton()
         var decimal = value + ".";
         document.getElementById("calcLabel").innerHTML = decimal;
     }
+    memory += 2;
 }
 
 function additionButton()
 {
     var value = document.getElementById("calcLabel").innerHTML;
-    console.log(memory + 5);
+    console.log(memory);
 }
 
 function subtractionButton()
