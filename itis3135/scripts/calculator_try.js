@@ -17,3 +17,8 @@ function divisionButton()
 {
 
 }
+
+function sevenButton()
+{
+    document.getElementById("calcLabel").innerHTML += 7;
+}
