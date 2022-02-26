@@ -38,7 +38,7 @@ function computeFunction(value, operationType)
 {
     if (operationType == "addition")
     {
-        totalAfterOperation = memory + value;
+        totalAfterOperation = parseFloat(memory) + parseFloat(value);
     }
     else if (operationType == "subtraction")
     {
@@ -88,7 +88,6 @@ function zeroButton()
         
         document.getElementById("calcLabel").innerHTML += 0;
     }
-    computeFunction(0, operation)
 }
 
 function oneButton()
@@ -96,13 +95,13 @@ function oneButton()
     if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
     {
         document.getElementById("calcLabel").innerHTML = 1;
+        computeFunction(1, operation)
     }
     else 
     {
         
         document.getElementById("calcLabel").innerHTML += 1;
     }
-    computeFunction(1, operation)
 }
 
 function twoButton()
