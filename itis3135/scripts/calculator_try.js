@@ -20,6 +20,20 @@ function divisionButton()
 
 }
 
+function zeroButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 0;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 0;
+    }
+}
+
 function oneButton()
 {
 
