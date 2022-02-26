@@ -18,7 +18,7 @@ function percentButton()
 function decimalButton()
 {
     var number = document.getElementById("calcLabel").innerHTML;
-    var decimal = "" + number + ".";
+    var decimal = number + ".";
     document.getElementById("calcLabel").innerHTML = decimal;
 }
 
