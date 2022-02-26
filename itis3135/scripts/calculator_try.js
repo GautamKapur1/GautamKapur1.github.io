@@ -5,13 +5,13 @@ function clearButton()
 
 function absValueButton()
 {
-    var absValueNum = parseInt(document.getElementById("calcLabel").innerHTML) * -1;
+    var absValueNum = parseFloat(document.getElementById("calcLabel").innerHTML) * -1;
     document.getElementById("calcLabel").innerHTML = absValueNum;
 }
 
 function percentButton()
 {
-    var percent = parseInt(document.getElementById("calcLabel").innerHTML) * .01;
+    var percent = parseFloat(document.getElementById("calcLabel").innerHTML) * .01;
     document.getElementById("calcLabel").innerHTML = percent;
 }
 
@@ -23,7 +23,7 @@ function divisionButton()
 function sevenButton()
 {
 
-    if (parseInt(document.getElementById("calcLabel").innerHTML) == 0)
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 7;
     }
