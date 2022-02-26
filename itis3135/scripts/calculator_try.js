@@ -123,7 +123,7 @@ function zeroButton()
 
 function oneButton()
 {
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
     {
         document.getElementById("calcLabel").innerHTML = 1;
     }
