@@ -1,3 +1,5 @@
+var memory = 10;
+
 function clearButton()
 {
     document.getElementById("calcLabel").innerHTML = 0;
@@ -27,22 +29,23 @@ function decimalButton()
 
 function additionButton()
 {
-    
+    var value = document.getElementById("calcLabel").innerHTML;
+    console.log(memory + 5);
 }
 
 function subtractionButton()
 {
-
+    var value = document.getElementById("calcLabel").innerHTML;
 }
 
 function multiplicationButton()
 {
-
+    var value = document.getElementById("calcLabel").innerHTML;
 }
 
 function divisionButton()
 {
-
+    var value = document.getElementById("calcLabel").innerHTML;
 }
 
 function equalButton()
