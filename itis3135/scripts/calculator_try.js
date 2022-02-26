@@ -18,8 +18,11 @@ function percentButton()
 function decimalButton()
 {
     var number = document.getElementById("calcLabel").innerHTML;
-    var decimal = number + ".";
-    document.getElementById("calcLabel").innerHTML = decimal;
+    if (!number.includes("."))
+    {
+        var decimal = number + ".";
+        document.getElementById("calcLabel").innerHTML = decimal;
+    }
 }
 
 function equalButton()
