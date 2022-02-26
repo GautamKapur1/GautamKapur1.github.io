@@ -12,7 +12,9 @@ function clearButton()
 }
 
 function additionButton()
-{   
+{
+    var currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
@@ -23,6 +25,8 @@ function additionButton()
 
 function subtractionButton()
 {
+    var currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
@@ -33,6 +37,8 @@ function subtractionButton()
 
 function multiplicationButton()
 {
+    var currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
@@ -43,6 +49,8 @@ function multiplicationButton()
 
 function divisionButton()
 {
+    var currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
     if (totalAfterOperation != null)
     {
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
@@ -103,28 +111,24 @@ function decimalButton()
 
 function zeroButton()
 {
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 0;
-        computeFunction(0, operation)
     }
     else 
-    {
-        
+    {   
         document.getElementById("calcLabel").innerHTML += 0;
     }
 }
 
 function oneButton()
 {
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 1;
-        computeFunction(1, operation)
     }
     else 
-    {
-        
+    { 
         document.getElementById("calcLabel").innerHTML += 1;
     }
 }
@@ -132,14 +136,12 @@ function oneButton()
 function twoButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 2;
-        computeFunction(2, operation)
     }
     else 
-    {
-        
+    {  
         document.getElementById("calcLabel").innerHTML += 2;
     }
 }
@@ -147,14 +149,12 @@ function twoButton()
 function threeButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 3;
-        computeFunction(3, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 3;
     }
 }
@@ -162,14 +162,12 @@ function threeButton()
 function fourButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 4;
-        computeFunction(4, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 4;
     }
 }
@@ -177,14 +175,12 @@ function fourButton()
 function fiveButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 5;
-        computeFunction(5, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 5;
     }
 }
@@ -192,14 +188,12 @@ function fiveButton()
 function sixButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 6;
-        computeFunction(6, operation)
     }
     else 
-    {
-        
+    { 
         document.getElementById("calcLabel").innerHTML += 6;
     }
 }
@@ -207,14 +201,12 @@ function sixButton()
 function sevenButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 7;
-        computeFunction(7, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 7;
     }
 }
@@ -222,14 +214,12 @@ function sevenButton()
 function eightButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 8;
-        computeFunction(8, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 8;
     }
 }
@@ -237,14 +227,12 @@ function eightButton()
 function nineButton()
 {
 
-    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0 || operation != "none")
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
     {
         document.getElementById("calcLabel").innerHTML = 9;
-        computeFunction(9, operation)
     }
     else 
     {
-        
         document.getElementById("calcLabel").innerHTML += 9;
     }
 }
