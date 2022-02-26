@@ -6,6 +6,9 @@ var operation = "none";
 function clearButton()
 {
     document.getElementById("calcLabel").innerHTML = 0;
+    memory = 0;
+    totalAfterOperation = null;
+    operation = "none";
 }
 
 function additionButton()
