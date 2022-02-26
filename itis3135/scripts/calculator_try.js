@@ -25,17 +25,7 @@ function decimalButton()
     }
 }
 
-function equalButton()
-{
-
-}
-
-function divisionButton()
-{
-
-}
-
-function multiplicationButton()
+function additionButton()
 {
 
 }
@@ -45,7 +35,17 @@ function subtractionButton()
 
 }
 
-function additionButton()
+function multiplicationButton()
+{
+
+}
+
+function divisionButton()
+{
+
+}
+
+function equalButton()
 {
 
 }
