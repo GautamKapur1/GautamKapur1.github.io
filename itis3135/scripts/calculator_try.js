@@ -41,7 +41,10 @@ function divisionButton()
 
 function equalButton()
 {
-    console.log(totalAfterOperation);
+    if(totalAfterOperation != null)
+    {
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }  
 }
 
 function computeFunction(value, operationType)
