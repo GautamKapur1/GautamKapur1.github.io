@@ -20,6 +20,90 @@ function divisionButton()
 
 }
 
+function oneButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 1;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 1;
+    }
+}
+
+function twoButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 2;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 2;
+    }
+}
+
+function threeButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 3;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 3;
+    }
+}
+
+function fourButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 4;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 4;
+    }
+}
+
+function fiveButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 5;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 5;
+    }
+}
+
+function sixButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 6;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 6;
+    }
+}
+
 function sevenButton()
 {
 
@@ -31,5 +115,33 @@ function sevenButton()
     {
         
         document.getElementById("calcLabel").innerHTML += 7;
+    }
+}
+
+function eightButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 8;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 8;
+    }
+}
+
+function nineButton()
+{
+
+    if (parseFloat(document.getElementById("calcLabel").innerHTML) == 0.0)
+    {
+        document.getElementById("calcLabel").innerHTML = 9;
+    }
+    else 
+    {
+        
+        document.getElementById("calcLabel").innerHTML += 9;
     }
 }
