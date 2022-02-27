@@ -15,10 +15,15 @@ function clearButton()
 
 function additionButton()
 {
-        var currVal = document.getElementById("calcLabel").innerHTML
+    var currVal;
+    currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
+    if (totalAfterOperation != null)
+    {
+        currVal = document.getElementById("calcLabel").innerHTML
         computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-        
+    }
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[0];
     justClickedOperation = true;
