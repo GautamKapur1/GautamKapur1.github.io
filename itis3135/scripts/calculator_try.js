@@ -13,7 +13,6 @@ function clearButton()
     justClickedOperation = false;
 }
 
-
 function additionButton()
 {
     var currVal;
@@ -80,7 +79,7 @@ function divisionButton()
         computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
-    
+
     memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[3];
     justClickedOperation = true;
