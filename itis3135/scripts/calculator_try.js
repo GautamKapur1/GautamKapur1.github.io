@@ -13,59 +13,45 @@ function clearButton()
     justClickedOperation = false;
 }
 
-function additionButton()
+function operation()
 {
     var currVal;
     currVal = document.getElementById("calcLabel").innerHTML
     computeFunction(currVal, operation);
+
     if (totalAfterOperation != null)
     {
         currVal = document.getElementById("calcLabel").innerHTML
         computeFunction(currVal, operation);
         document.getElementById("calcLabel").innerHTML = totalAfterOperation;
     }
+
     memory = document.getElementById("calcLabel").innerHTML;
-    operation = operationList[0];
     justClickedOperation = true;
+}
+
+function additionButton()
+{
+    operation();
+    operation = operationList[0];
 }
 
 function subtractionButton()
 {
-    if (totalAfterOperation != null)
-    {
-        var currVal = document.getElementById("calcLabel").innerHTML
-        computeFunction(currVal, operation);
-        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-    }
-    memory = document.getElementById("calcLabel").innerHTML;
+    operation();
     operation = operationList[1];
-    justClickedOperation = true;
 }
 
 function multiplicationButton()
 {
-    if (totalAfterOperation != null)
-    {
-        var currVal = document.getElementById("calcLabel").innerHTML
-        computeFunction(currVal, operation);
-        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-    }
-    memory = document.getElementById("calcLabel").innerHTML;
+    operation();
     operation = operationList[2];
-    justClickedOperation = true;
 }
 
 function divisionButton()
 {
-    if (totalAfterOperation != null)
-    {
-        var currVal = document.getElementById("calcLabel").innerHTML
-        computeFunction(currVal, operation);
-        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
-    }
-    memory = document.getElementById("calcLabel").innerHTML;
+    operation();
     operation = operationList[3];
-    justClickedOperation = true;
 }
 
 function equalButton()
