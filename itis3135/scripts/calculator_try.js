@@ -13,7 +13,8 @@ function clearButton()
     justClickedOperation = false;
 }
 
-function operation()
+
+function additionButton()
 {
     var currVal;
     currVal = document.getElementById("calcLabel").innerHTML
@@ -27,31 +28,62 @@ function operation()
     }
 
     memory = document.getElementById("calcLabel").innerHTML;
-    justClickedOperation = true;
-}
-
-function additionButton()
-{
-    operation();
     operation = operationList[0];
+    justClickedOperation = true;
 }
 
 function subtractionButton()
 {
-    operation();
+    var currVal;
+    currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
+
+    if (totalAfterOperation != null)
+    {
+        currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
+
+    memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[1];
+    justClickedOperation = true;
 }
 
 function multiplicationButton()
 {
-    operation();
+    var currVal;
+    currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
+
+    if (totalAfterOperation != null)
+    {
+        currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
+
+    memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[2];
+    justClickedOperation = true;
 }
 
 function divisionButton()
 {
-    operation();
+    var currVal;
+    currVal = document.getElementById("calcLabel").innerHTML
+    computeFunction(currVal, operation);
+
+    if (totalAfterOperation != null)
+    {
+       currVal = document.getElementById("calcLabel").innerHTML
+        computeFunction(currVal, operation);
+        document.getElementById("calcLabel").innerHTML = totalAfterOperation;
+    }
+    
+    memory = document.getElementById("calcLabel").innerHTML;
     operation = operationList[3];
+    justClickedOperation = true;
 }
 
 function equalButton()
