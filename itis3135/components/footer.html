@@ -13,12 +13,16 @@
     <br />
     Created by <a href = "kapurenterprise.com/" target = "_blank">Kapur Enterprises &copy;2022</a>
     <p>
-        <a href = "https://validator.w3.org/check?uri=referer" target = "_blank">
-            <img src = "images/button_validation_html5.png" alt = "Link to HTML validator">
+        <a href = "" target = "_blank" id = "validation_link_html">
+            <img src = "images/button_validation_html5.png" alt = "Link to HTML validator" id = >
         </a>
 
-        <a href="https://jigsaw.w3.org/css-validator/check/referer" target = "_blank">
+        <a href = "" target = "_blank" id = "validation_link_css">
             <img src = "images/button_validation_css.png" alt = "Link to CSS validator">
         </a>
     </p>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
 </footer>
