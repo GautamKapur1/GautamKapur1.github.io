@@ -74,6 +74,10 @@ footer
   bottom: 0;
   right: 0;
   padding-right: 70px;
+}
+
+footer a 
+{
   text-decoration: none;
 }
 
