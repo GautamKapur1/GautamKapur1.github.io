@@ -9,7 +9,6 @@ function displayResults()
     let highest = 0;
     let highestIndex = 0;
 
-    //gets avg salary
     for (i = 0; i < salaries.length; i++)
     {
         totalSalary += salaries[i];
@@ -20,15 +19,25 @@ function displayResults()
         }
     }
     avg = totalSalary / salaries.length;
-    let message = "<h2>Results</h2><p>The average salary is: $" + avg + ". The person with the highest salary is "
+    let message = "<h3>Results</h3><p>The average salary is: $" + avg + ". The person with the highest salary is "
      + people[highestIndex] + " with a salary of: $" + highest + ".</p>";
-     
+
      document.getElementById("results").innerHTML = message;
 }
 
+//display salaries as table format
 function displaySalary()
 {
+    let startTable = "<h3>Salary</h3><table><tr><th>Name</th><th>Salary</th></tr>";
+    let tableInfo = "";
+    let endTable = "</table>";
 
+    for (i = 0; i < salaries.length; i++)
+    {
+        tableInfo += "<tr><th>" + people[i] + "</th>" + salaries[i] + "</tr>";
+    }
+
+    document.getElementById("results_table").innerHTML = startTable + tableInfo + endTable;
 }
 
 function addSalary()
