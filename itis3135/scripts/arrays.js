@@ -4,7 +4,7 @@ let salaries = new Array();
 //loop through salary array and get average salary. display highest salary (and person) also
 function displayResults()
 {
-    let totalSalary = 0;
+    var totalSalary = 0;
     let avg = 0;
     let highest = 0;
     let highestIndex = 0;
