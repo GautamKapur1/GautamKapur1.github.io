@@ -44,11 +44,29 @@ function addSalary()
 {
     let person = document.getElementById("employeeList").value;
     let salary = document.getElementById("salaryamnt").value;
+    let arrContainsPerson = false;
+    let personIndex = 0;
 
     if (salary != "")
     {
-        people.push(person);
-        salaries.push(salary);
+        for (i = 0; i < people.length; i++)
+        {
+            if (people[i] == person) 
+            {
+                arrContainsPerson = true;
+                personIndex = i;
+            }
+        }
+        if (arrContainsPerson)
+        {
+            salaries[personIndex] = salary;
+        }
+        else
+        {
+            people.push(person);
+            salaries.push(salary);
+        }
+        
         document.getElementById("addsalaryresult").innerHTML = person + " has a salary of $" + salary;
     }
     else
