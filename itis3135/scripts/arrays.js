@@ -48,9 +48,11 @@ function addSalary()
     if (salary != "")
     {
         people.push(person);
+        salaries.push(salary);
+        document.getElementById("addsalaryresult").innerHTML = person + " has a salary of $" + salary;
     }
     else
     {
-        document.getElementById("warning").innerHTML = "Oops! Please enter a salary!";
+        document.getElementById("addsalaryresult").innerHTML = "Oops! Please enter a salary!";
     }
 }
