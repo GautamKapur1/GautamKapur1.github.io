@@ -11,7 +11,7 @@ function displayResults()
 
     for (i = 0; i < salaries.length; i++)
     {
-        salaries[i] = parseFloat(salaries[i]).toFixed(2);
+        salaries[i] = salaries[i];
         totalSalary += salaries[i];
         if (salaries[i] > highest)
         {
@@ -44,7 +44,7 @@ function displaySalary()
 function addSalary()
 {
     let person = document.getElementById("employeeList").value;
-    let salary = document.getElementById("salaryamnt").value;
+    let salary = parseFloat(document.getElementById("salaryamnt").value).toFixed(2);
     let arrContainsPerson = false;
     let personIndex = 0;
 
