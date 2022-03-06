@@ -18,7 +18,7 @@ function displayResults()
             highestIndex = i;
         }
     }
-    avg = totalSalary / salaries.length;
+    avg = parseFloat(totalSalary / salaries.length).toFixed(2);
     
     let message = "<h3>Results</h3><p>The average salary is: $" + avg + ". The person with the highest salary is "
      + people[highestIndex] + " with a salary of: $" + highest + ".</p>";
