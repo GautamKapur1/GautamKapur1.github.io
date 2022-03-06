@@ -43,7 +43,7 @@ function displaySalary()
 function addSalary()
 {
     let person = document.getElementById("employeeList").value;
-    let salary = document.getElementById("salaryamnt").innerHTML;
+    let salary = document.getElementById("salaryamnt").value;
     let arrCount = people.length
 
     if (salary != "")
