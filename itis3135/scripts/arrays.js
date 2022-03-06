@@ -1,5 +1,5 @@
-let people = new Array("Gautam Kapur", "Michael Jackson", "Bill Murray", "Keanu Reeves");
-let salaries = new Array(130000, 91000, 62000, 283000);
+let people = new Array();
+let salaries = new Array();
 
 //loop through salary array and get average salary. display highest salary (and person) also
 function displayResults()
@@ -42,5 +42,5 @@ function displaySalary()
 
 function addSalary()
 {
-
+    
 }

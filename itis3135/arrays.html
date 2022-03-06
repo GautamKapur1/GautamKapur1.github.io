@@ -18,6 +18,8 @@
                 Arrays
             </h2>
             
+            <label for = "employeeList">Select an employee: </label>
+
             <select name = "employeeList" id = "employeeList" required>
                 <option value = "GautamKapur">Gautam Kapur</option>
                 <option value = "MichaelJackson">Michael Jackson</option>
@@ -25,9 +27,14 @@
                 <option value = "KeanuReeves">Keanu Reeves</option>
             </select>
 
+            <label>Enter a salary: $</label>
+            <input type = "number" name = "salaryamnt" id = "salaryamnt" />
+
             <button onclick = "addSalary();" type = "button" name = "addSalary" id = "addSalary">Add Salary</button>
+            <br />
+            <br />
             <button onclick = "displayResults();" type = "button" name = "displayResults" id = "displayResults">Display Results</button>
-            <button onclick = "displaySalary();" type = "button" name = "dislpaySalary" id = "displaySalary">Display Salary</button>
+            <button onclick = "displaySalary();" type = "button" name = "dislpaySalary" id = "displaySalary">Display Salaries</button>
             
             <div id = "results"></div>
 			<div id = "results_table"></div>
