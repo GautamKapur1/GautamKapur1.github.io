@@ -4,7 +4,7 @@ let salaries = new Array();
 //loop through salary array and get average salary. display highest salary (and person) also
 function displayResults()
 {
-    let totalSalary = 0;
+    let totalSalary = 0.0;
     let avg = 0;
     let highest = 0;
     let highestIndex = 0;
@@ -21,6 +21,7 @@ function displayResults()
     }
     console.log(totalSalary);
     console.log(salaries.length);
+
     avg = totalSalary / salaries.length;
     let message = "<h3>Results</h3><p>The average salary is: $" + avg + ". The person with the highest salary is "
      + people[highestIndex] + " with a salary of: $" + highest + ".</p>";
