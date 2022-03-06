@@ -9,6 +9,7 @@ function displayResults()
     let highest = 0;
     let highestIndex = 0;
 
+    totalSalary = parseFloat(totalSalary);
     for (i = 0; i < salaries.length; i++)
     {
         console.log(totalSalary);
