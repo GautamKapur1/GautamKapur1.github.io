@@ -11,7 +11,7 @@ function displayResults()
 
     for (i = 0; i < salaries.length; i++)
     {
-        salaries[i] = parseFloat(salaries[i]);
+        salaries[i] = parseFloat(salaries[i]).toFixed(2);
         totalSalary += salaries[i];
         if (salaries[i] > highest)
         {
