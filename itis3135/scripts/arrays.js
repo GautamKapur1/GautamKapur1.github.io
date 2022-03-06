@@ -67,7 +67,8 @@ function addSalary()
             salaries.push(salary);
         }
         
-        document.getElementById("addsalaryresult").innerHTML = person + " has a salary of $" + salary;
+        document.getElementById("addsalaryresult").innerHTML = person + 
+        " has been added to the list with a salary of $" + salary;
     }
     else
     {
