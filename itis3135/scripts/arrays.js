@@ -8,7 +8,7 @@ function displayResults()
     let avg = 0;
     let highest = 0;
     let highestIndex = 0;
-
+    console.log(parseFloat(totalSalary).toFixed);
     
     for (i = 0; i < salaries.length; i++)
     {
