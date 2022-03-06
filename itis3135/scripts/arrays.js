@@ -11,13 +11,13 @@ function displayResults()
 
     for (i = 0; i < salaries.length; i++)
     {
-        salaries[i] = salaries[i];
         totalSalary += salaries[i];
         if (salaries[i] > highest)
         {
             highest = salaries[i];
             highestIndex = i;
         }
+        console.log(salaries[i]);
     }
     avg = totalSalary / salaries.length;
     let message = "<h3>Results</h3><p>The average salary is: $" + avg + ". The person with the highest salary is "
