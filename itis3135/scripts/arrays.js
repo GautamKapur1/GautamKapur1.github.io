@@ -11,7 +11,7 @@ function displayResults()
 
     for (i = 0; i < salaries.length; i++)
     {
-        parseFloat(totalSalary).toFixed(2) += parseFloat(salaries[i]).toFixed(2);
+        totalSalary += parseFloat(salaries[i]).toFixed(2);
         if (salaries[i] > highest)
         {
             highest = salaries[i];
@@ -22,7 +22,7 @@ function displayResults()
     console.log(totalSalary);
     console.log(salaries.length);
     avg = totalSalary / salaries.length;
-
+    
     let message = "<h3>Results</h3><p>The average salary is: $" + avg + ". The person with the highest salary is "
      + people[highestIndex] + " with a salary of: $" + highest + ".</p>";
 
@@ -51,7 +51,7 @@ function addSalary()
     let arrContainsPerson = false;
     let personIndex = 0;
 
-    if (salary != "")
+    if (salary != NaN)
     {
         for (i = 0; i < people.length; i++)
         {
