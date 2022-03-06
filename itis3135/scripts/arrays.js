@@ -44,11 +44,10 @@ function addSalary()
 {
     let person = document.getElementById("employeeList").value;
     let salary = document.getElementById("salaryamnt").value;
-    let arrCount = people.length
 
     if (salary != "")
     {
-        document.getElementById("warning").innerHTML = "test";
+        people.push(person);
     }
     else
     {
