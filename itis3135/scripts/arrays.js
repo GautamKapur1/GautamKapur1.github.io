@@ -4,14 +4,14 @@ let salaries = new Array();
 //loop through salary array and get average salary. display highest salary (and person) also
 function displayResults()
 {
-    let totalSalary = 0.0;
+    let totalSalary = 0;
     let avg = 0;
     let highest = 0;
     let highestIndex = 0;
 
     for (i = 0; i < salaries.length; i++)
     {
-        totalSalary += salaries[i];
+        totalSalary += parseFloat(salaries[i]).toFixed(2);
         if (salaries[i] > highest)
         {
             highest = salaries[i];
