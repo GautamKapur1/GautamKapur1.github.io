@@ -34,7 +34,7 @@ function displaySalary()
 
     for (i = 0; i < salaries.length; i++)
     {
-        tableInfo += "<tr><th>" + people[i] + "</th>" + salaries[i] + "</tr>";
+        tableInfo += "<tr><th>" + people[i] + "</th><th>" + salaries[i] + "</th></tr>";
     }
 
     document.getElementById("results_table").innerHTML = startTable + tableInfo + endTable;
