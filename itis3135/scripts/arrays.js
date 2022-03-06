@@ -45,7 +45,7 @@ function addSalary()
     let person = document.getElementById("employeeList").value;
     let salary = document.getElementById("salaryamnt").innerHTML;
     let arrCount = people.length
-
+    console.log(salary);
     if (salary != undefined)
     {
         document.getElementById("warning").innerHTML = "test";
