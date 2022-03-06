@@ -46,9 +46,9 @@ function addSalary()
     let salary = document.getElementById("salaryamnt").innerHTML;
     let arrCount = people.length
 
-    if (salary != null)
+    if (salary != undefined)
     {
-        
+        document.getElementById("warning").innerHTML = "test";
     }
     else
     {
