@@ -42,6 +42,6 @@ function displaySalary()
 
 function addSalary()
 {
-    let person = document.getElementById("employeeList").innerHTML;
+    let person = document.getElementById("employeeList").nodeValue;
     console.log(person);
 }
