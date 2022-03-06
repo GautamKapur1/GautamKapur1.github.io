@@ -9,11 +9,11 @@ function displayResults()
     let highest = 0;
     let highestIndex = 0;
 
-    totalSalary = parseFloat(totalSalary);
+    
     for (i = 0; i < salaries.length; i++)
     {
         console.log(totalSalary);
-        totalSalary += parseFloat(salaries[i]).toFixed(2);
+        totalSalary = parseFloat(totalSalary) + parseFloat(salaries[i]).toFixed(2);
         if (salaries[i] > highest)
         {
             highest = salaries[i];
