@@ -28,7 +28,7 @@ function displayResults()
 //display salaries as table format
 function displaySalary()
 {
-    let startTable = "<h3>Salary</h3><table><tr><th>Name</th><th>Salary</th></tr>";
+    let startTable = "<h3>Salaries Table</h3><table><tr><th>Name</th><th>Salary</th></tr>";
     let tableInfo = "";
     let endTable = "</table>";
 
