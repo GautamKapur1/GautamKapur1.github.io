@@ -11,7 +11,7 @@ function displayResults()
 
     for (i = 0; i < salaries.length; i++)
     {
-        totalSalary += parseFloat(salaries[i]).toFixed(2);
+        totalSalary = totalSalary + 0 + parseFloat(salaries[i]).toFixed(2);
         if (salaries[i] > highest)
         {
             highest = salaries[i];
@@ -51,7 +51,7 @@ function addSalary()
     let arrContainsPerson = false;
     let personIndex = 0;
 
-    if (salary != NaN)
+    if (salary != "" && salary != ".")
     {
         for (i = 0; i < people.length; i++)
         {
