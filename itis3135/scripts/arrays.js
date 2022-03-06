@@ -43,5 +43,15 @@ function displaySalary()
 function addSalary()
 {
     let person = document.getElementById("employeeList").value;
-    console.log(person);
+    let salary = document.getElementById("salaryamnt").innerHTML;
+    let arrCount = people.length
+
+    if (salary != null)
+    {
+        
+    }
+    else
+    {
+        document.getElementById("warning").innerHTML = "Oops! Please enter a salary!";
+    }
 }
