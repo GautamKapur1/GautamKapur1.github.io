@@ -48,7 +48,7 @@ function addSalary()
     let arrContainsPerson = false;
     let personIndex = 0;
 
-    if (salary != "" && salary != ".")
+    if (!isNan(salary))
     {
         for (i = 0; i < people.length; i++)
         {
