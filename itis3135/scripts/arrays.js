@@ -50,7 +50,7 @@ function addSalary()
 
     console.log(isNaN(salary));
 
-    if (true)
+    if (isNaN(salary) == false)
     {
         for (i = 0; i < people.length; i++)
         {
