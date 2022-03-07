@@ -48,8 +48,6 @@ function addSalary()
     let arrContainsPerson = false;
     let personIndex = 0;
 
-    console.log(isNaN(salary));
-
     if (isNaN(salary) == false)
     {
         for (i = 0; i < people.length; i++)
@@ -75,6 +73,6 @@ function addSalary()
     }
     else
     {
-        document.getElementById("addsalaryresult").innerHTML = "Oops! Please enter a salary!";
+        document.getElementById("addsalaryresult").innerHTML = "Oops! Please enter a valid number!";
     }
 }
