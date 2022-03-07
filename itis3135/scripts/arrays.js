@@ -73,6 +73,7 @@ function addSalary()
     }
     else
     {
+        document.getElementById("addsalaryresult").innerHTML = "Oops! Please enter a valid number!";
         alert("Oops! Please enter a valid number!");
     }
 }
