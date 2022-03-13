@@ -109,7 +109,7 @@ form
   color: rgb(244, 237, 237); 
 }
 
-div.project_description
+.project_description h3
 {
   text-align: left;
 }
