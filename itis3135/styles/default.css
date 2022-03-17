@@ -24,7 +24,9 @@ header,footer
   border-style: solid;
   padding-bottom: 20px;
 }
-
+header{
+  padding-bottom: 100px;
+}
 h1,h2,h3
 {
   font-family:'Lucida Sans', 'Trebuchet MS', sans-serif;
