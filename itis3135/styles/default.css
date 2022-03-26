@@ -110,17 +110,17 @@ form
   text-align: left;
 }
 
-#slideshow_pics 
-{
-  text-align: center;
-}
-
 #images_for_slideshow img 
 {
   display: none;
 }
 
-#images_for_slideshow img#active 
+#images_for_slideshow #current_pic 
 {
   display: inline-block;
+}
+
+#slideshow_pics 
+{
+  text-align: center;
 }

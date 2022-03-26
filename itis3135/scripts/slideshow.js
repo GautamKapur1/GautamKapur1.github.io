@@ -1,22 +1,30 @@
 $(document).ready(function() 
 {
-    var imgLink;
     var curr_pic;
     var next_pic;
 
-    //when left arrow clicked
+    //left arrow click
     $('#leftarrow').on('click', function()
     {
-        curr_pic = $('#curr_pic');
+        curr_pic = $('#current_pic');
         next_pic = curr_pic.next();
-        curr_pic.removeAttr('id');
-        next_pic.attr('id', 'curr_pic')
+
+        if (next_pic.length > 0) 
+        {
+            curr_pic.removeAttr('id');
+            next_pic.attr('id', 'current_pic');
+        }
     });
 
-    //when right arrow clicked
+    //right arrow click
     $('#rightarrow').on('click', function()
     {
-        curr_pic = $('#curr_pic');
-
+        curr_pic = $('#current_pic');
+        next_pic = curr_pic.prev();
+        if (next_pic.length > 0) 
+        {
+            curr_pic.removeAttr('id');
+            next_pic.attr('id', 'current_pic')
+        }
     });
 })
