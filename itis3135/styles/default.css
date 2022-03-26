@@ -114,3 +114,13 @@ form
 {
   text-align: center;
 }
+
+#images_for_slideshow img 
+{
+  display: none;
+}
+
+#images_for_slideshow img#active 
+{
+  display: inline-block;
+}
