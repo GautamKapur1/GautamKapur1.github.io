@@ -186,7 +186,7 @@
         </main>
 
         <footer>
-            <button onclick = "htmlValidate();" type = "button" name = "validation_link_html" id = "validation_link_html">HTML Validation</button>
+            <button onclick = "htmlValidate();" type = "button" name = "validation_link_html" id = "validation_link_html" formtarget = "_blank">HTML Validation</button>
             <p>
                 
         
@@ -198,7 +198,6 @@
                 function htmlValidate()
                 {
                     location.href = "https://validator.w3.org/check?uri=referer";
-                    document.getElementById("validation_link_html").setAttribute("target" , "_blank");
                 }
 
                 document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
