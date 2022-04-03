@@ -187,21 +187,19 @@
 
         <footer>
             <button onclick = "htmlValidate();" type = "button" name = "validation_link_html" id = "validation_link_html">HTML Validation</button>
-            <p>
-                
-        
-                <a href = "" target = "_blank" id = "validation_link_css">
-                    <img src = "images/button_validation_css.png" alt = "Link to CSS validator" width = "88" height = "31" />
-                </a>
-            </p>
+            <button onclick = "cssValidate();" type = "button" name = "validation_link_css" id = "validation_link_css">CSS Validation</button>
+            
             <script>
                 function htmlValidate()
                 {
                     window.open("https://validator.w3.org/check?uri=referer", "_blank");
-                    //location.href = "https://validator.w3.org/check?uri=referer";
                 }
 
-                document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+                function cssValidate() 
+                {
+                    window.open("https://jigsaw.w3.org/css-validator/validator?uri=", "_blank");
+                }
+                
             </script>
         </footer>
     </body>
