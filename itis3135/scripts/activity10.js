@@ -1,8 +1,8 @@
 $(document).ready(function() {
     // preload the image for each link
     $("#image_list a").each(function() {
-        var swapImg = new Image();
-        swapImg.src = $(this).attr("href");
+        var img = new Image();
+        img.src = $(this).attr("href");
     });
 
     // set up the event handlers for each link
