@@ -130,3 +130,9 @@ form
   padding-right: 10px;
   display: inline;
 }
+
+#image_swap
+{
+  padding: 20px;
+	width: 550px;
+}
