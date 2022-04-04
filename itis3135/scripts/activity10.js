@@ -16,7 +16,7 @@ $(document).ready(function() {
             $("#image").attr("src", url).fadeIn(3000);
         });
         $("#caption").fadeOut(3000, function(){
-            $("#caption").text(caption);
+            $("#caption").text(caption).fadeIn(3000);
         });
 
         // cancel the default action of each link
@@ -25,5 +25,5 @@ $(document).ready(function() {
             
     // move the focus to the first link
     $("li:first-child a").focus();
-    
+
 }); // end ready
