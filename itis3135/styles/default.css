@@ -124,3 +124,9 @@ form
 {
   text-align: center;
 }
+
+#image_list li
+{
+  padding-right: 10px;
+  display: inline;
+}
