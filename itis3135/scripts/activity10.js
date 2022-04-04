@@ -18,11 +18,12 @@ $(document).ready(function() {
         $("#caption").fadeOut(3000, function(){
             $("#caption").text(caption);
         });
-        
+
         // cancel the default action of each link
         evt.preventDefault();
     });
             
     // move the focus to the first link
     $("li:first-child a").focus();
+    
 }); // end ready
