@@ -131,7 +131,7 @@ form
   display: inline;
 }
 
-#image_swap
+#image_swap_header, #image_list, #caption, #image
 {
   padding: 20px;
 	width: 550px;
