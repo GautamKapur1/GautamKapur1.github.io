@@ -96,7 +96,7 @@ function equalButton()
     } 
     totalAfterOperation = null;
     operation = "none";
-    justClickedOperation = false;
+    justClickedOperation = true;
 }
 
 function computeFunction(value, operationType)
