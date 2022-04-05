@@ -133,6 +133,7 @@ form
 
 #image_swap_header, #image_list, #caption, #image
 {
+  text-align: center;
   padding: 20px;
 	width: 550px;
 }
