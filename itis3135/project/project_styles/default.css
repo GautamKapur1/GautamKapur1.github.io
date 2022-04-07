@@ -3,6 +3,7 @@ body
   font-family: Arial, Helvetica, sans-serif;
   color: #050601;
   background-color: #2DB5C4;
+  margin: 50px 100px 50px 100px;
 }
 
 header, footer, h1, h2, figure
@@ -26,9 +27,4 @@ nav
     height: 2.5%;
     padding-top: 8px;
     color: rgb(227, 229, 237);
-}
-
-main 
-{
-  margin: 50px 100px 50px 100px;
 }
