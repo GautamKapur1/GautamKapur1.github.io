@@ -13,10 +13,10 @@ $(document).ready(function() {
         var caption = $(this).attr("title");
 
         $("#image").fadeOut(3000, function(){
-            $("#image").attr("src", url).fadeIn(3000);
+            $("#image").attr("src", url).fadeIn(1000);
         });
         $("#caption").fadeOut(3000, function(){
-            $("#caption").text(caption).fadeIn(3000);
+            $("#caption").text(caption).fadeIn(1000);
         });
 
         // cancel the default action of each link
