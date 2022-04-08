@@ -6,7 +6,7 @@ body
   margin: 50px 150px 50px 150px;
 }
 
-header, footer, h1, h2, figure
+header, footer, h1, h2, h3, figure
 {
   text-align: center;
 }
