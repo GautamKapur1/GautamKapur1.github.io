@@ -29,3 +29,15 @@ nav, nav a
 {
   text-align: center;
 }
+
+form 
+{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+input
+{
+  width: 100%;
+
+}
