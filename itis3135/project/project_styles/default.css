@@ -42,3 +42,8 @@ input
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
+input[type = submit], input[type = reset]
+{
+  padding: 10px;
+}
