@@ -17,12 +17,33 @@
                 Swim Classes
             </h2>
 
-            <h3>
-                Sign Up
-            </h3>
-
             <form action = "#">
-                <h3></h3>
+                <h3>Sign Up</h3>
+
+                <label for = "name">Name: </label>
+                <br />
+                <input type = "text" id = "name" name = "name" class = "textbox" placeholder = "John Doe" required />
+                <br />
+                <br />
+                <label for = "user_email">Email Address: </label>
+                <br />
+                <input type = "email" id = "user_email" name = "user_email" class = "textbox" placeholder = "example@gmail.com" required />
+                <br />
+                <br />
+                <label for = "classes_per_week"># of Classes per Week: </label>
+                <br />
+                <input type = "number" id = "classes_per_week" name = "classes_per_week" class = "textbox" placeholder = "3" required />
+                <br />
+                <br />
+                <label for = "class_time">Time: </label>
+                <br />
+                <input type = "time" id = "class_time" name = "class_time" class = "textbox" required />
+                <br />
+                <br />
+                <input type = "reset" value = "Reset" class = "button" />
+                <br />
+                <br />
+                <input type = "submit" value = "Send" class = "button" /> 
             </form>
 
             <p>
