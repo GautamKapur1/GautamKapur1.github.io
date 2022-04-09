@@ -1,9 +1,16 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
+        randomStart: true,
+        moveSlides: 1,
+        captions: true,
         auto: true,
-        minSlides: 2,
-        maxSlides: 2,
-        slideWidth: 300,
-        slideMargin: 20
+        pause: 3000,
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 500,
+        slideMargin: 20, 
+        pager: true,
+        pagerSelector: "#id_pager",
+        pagerType: 'short'
     });
 });
