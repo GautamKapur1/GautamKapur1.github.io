@@ -12,8 +12,8 @@ function validateNum(_guess)
     }
     else
     {
-        number = Math.abs(number);
-        number = Math.round(_guess);
+        number = Math.abs(_guess);
+        number = Math.round(number);
         if(number > 10 || number < 1)
         {
             alert("Sorry! That was not a number between 1-10! Please try again!");
