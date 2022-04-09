@@ -141,3 +141,9 @@ form
 {
   text-align: center;
 }
+
+#calculator_try button
+{
+  width: 100%;
+  height: 100%;
+}
