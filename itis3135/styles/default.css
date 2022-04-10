@@ -60,7 +60,7 @@ td, th
   padding: 10px 20px 10px 15px;
 }
 
-th { text-align: center; }
+th, figure { text-align: center; }
 
 #center_list
 {
@@ -105,7 +105,7 @@ form
   color: rgb(244, 237, 237); 
 }
 
-.project_description h3, figcaption
+#project_description h3
 {
   text-align: left;
 }
