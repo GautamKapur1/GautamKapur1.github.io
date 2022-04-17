@@ -15,7 +15,7 @@ $(document).ready(function() {
             $("#team").html("");
 
             $.each(data,function(){
-                $.each(data, function(key, value){
+                $.each(this, function(key, value){
                     $("#team").append(
                         "Name: " + value.name + "<br />" + 
                         "Title: " + value.title + "<br />" + 
@@ -23,15 +23,6 @@ $(document).ready(function() {
                     )
                 })
             })
-            /*
-            $(data).find("management").children().each(function() {
-                var xmlDoc = $(this);
-                $("#team").append
-                ("<h3>" + xmlDoc.find("name").text() + "</h3>" +
-                          xmlDoc.find("title").text() + "<br>" +
-                          xmlDoc.find("bio").text() + "<br>");
-            });
-            */
             
         }
     });
