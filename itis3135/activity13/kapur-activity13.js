@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $.ajax({
         type: "get",
@@ -12,6 +13,17 @@ $(document).ready(function() {
         dataType: "json",
         success: function(data) {
             $("#team").html("");
+
+            $.each(data,function(){
+                $.each(data, function(key, value){
+                    $("#team").append(
+                        "Name: " + value.name + "<br />" + 
+                        "Title: " + value.title + "<br />" + 
+                        "Bio: " + value.bio + "<br /><br />" 
+                    )
+                })
+            })
+            /*
             $(data).find("management").children().each(function() {
                 var xmlDoc = $(this);
                 $("#team").append
@@ -19,6 +31,9 @@ $(document).ready(function() {
                           xmlDoc.find("title").text() + "<br>" +
                           xmlDoc.find("bio").text() + "<br>");
             });
+            */
+            
         }
     });
 });
+
