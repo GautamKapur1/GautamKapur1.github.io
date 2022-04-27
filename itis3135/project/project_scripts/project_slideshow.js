@@ -1,12 +1,13 @@
-$(document).ready(function(){
-    $('.slider').bxSlider({
-      minSlides: 1,
-      maxSlides: 1,
-      slideWidth: 700,
-      adaptiveHeight: true,
-      captions: true,
-      speed: 1000,
-      auto: true,
-      moveSlides: 1
+$(document).ready(function() {
+    $("#slider").bxSlider({
+        randomStart: true,
+        moveSlides: 1,
+        captions: true,
+        auto: true,
+        pause: 3000,
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 500,
+        slideMargin: 20
     });
 });
