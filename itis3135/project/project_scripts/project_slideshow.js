@@ -1,8 +1,7 @@
 $(document).ready(function() {
-    $(".slider").bxSlider({
+    $('.slider').bxSlider({
         randomStart: true,
         moveSlides: 1,
-        captions: true,
         auto: true,
         pause: 3000,
         minSlides: 1,
