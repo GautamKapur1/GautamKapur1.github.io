@@ -3,8 +3,7 @@ $(document).ready(function() {
         moveSlides: 1,
         minSlides: 1,
         maxSlides: 1,
-        slideWidth: 500,
-        slideMargin: 20,
+        slideMargin: 15,
         captions: true
     });
 });
