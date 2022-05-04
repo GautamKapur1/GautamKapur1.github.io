@@ -14,7 +14,7 @@ a
   font-weight: 600;
 }
 a:hover { background-color: #504d4d; }
-a img { pointer-events: none; }
+img { pointer-events: none; }
 
 header,footer
 {
