@@ -12,7 +12,7 @@ a
   color: #bdffff;
   text-decoration: none;
 }
-a:hover { text-decoration: underline; }
+a:hover { background-color: #504d4d; }
 
 header, footer
 {
@@ -158,6 +158,6 @@ form
 
 #validation_link_html:hover, #validation_link_css:hover
 {
-  color: #bdffff;
-  background-color: #078282;
+  color: #c5c6c7;
+  background-color: #0b0c10;
 }
