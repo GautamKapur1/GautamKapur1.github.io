@@ -7,7 +7,11 @@ body
   font-size: 18px;
 }
 
-a { text-decoration: none; }
+a 
+{ 
+  color: #581361;
+  text-decoration: none; 
+}
 a:hover { background-color: #e3e1e1; }
 
 header, footer
