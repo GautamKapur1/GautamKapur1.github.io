@@ -14,7 +14,6 @@ a
   font-weight: 600;
 }
 a:hover { background-color: #504d4d; }
-img { pointer-events: none; }
 
 header,footer
 {
@@ -148,4 +147,15 @@ form
 {
   width: 100%;
   height: 100%;
+}
+
+#validation_link_html, #validation_link_css
+{
+  text-decoration: none;
+}
+
+#validation_link_html:hover, #validation_link_css:hover
+{
+  color: #bdffff;
+  background-color: #078282;
 }
