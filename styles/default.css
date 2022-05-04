@@ -7,10 +7,7 @@ body
   font-size: 26px;
 }
 
-a 
-{ 
-  text-decoration: none;
-}
+a { text-decoration: none; }
 a:hover { background-color: #e3e1e1; }
 
 header, footer
@@ -32,7 +29,6 @@ footer
   bottom: 0;
   left: 0;
   width: 100%;
-
 }
 
 .main_center
