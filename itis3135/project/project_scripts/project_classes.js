@@ -4,6 +4,7 @@ function calcCost()
     var classLength = document.getElementById("class_length");
     var displayCost = document.getElementById("cost");
     let count = 0;
+    let costPerHrOfClass = 15;
 
     displayCost.innerHTML = "";
 
@@ -30,7 +31,7 @@ function calcCost()
     if (classesPerWeek.value != 0 && classLength.value != 0) 
     {
         let hrsClassPerWeek = classesPerWeek.value * classLength.value;
-        let cost = hrsClassPerWeek * 15;
+        let cost = hrsClassPerWeek * costPerHrOfClass;
         displayCost.innerHTML += "<strong>Total Cost: $" + cost.toFixed(2) + "</strong>";
         //15$ per hour of class
     }
