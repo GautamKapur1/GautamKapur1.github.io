@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "get",
-        url: "people.json",
+        url: "project_scripts/people.json",
         beforeSend: function() {
             $("#team").html("Loading...");
         },

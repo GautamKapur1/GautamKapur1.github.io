@@ -33,7 +33,7 @@ nav, nav a
   text-align: center;
 }
 
-form 
+form, #about_us
 {
   margin-left: 200px;
   margin-right: 200px;
