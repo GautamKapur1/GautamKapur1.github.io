@@ -22,26 +22,46 @@
                 <label for = "name">Name: </label>
                 <br />
                 <input type = "text" id = "name" name = "name" class = "textbox" placeholder = "John Doe" required />
+
                 <br />
                 <br />
+
                 <label for = "user_email">Email Address: </label>
                 <br />
                 <input type = "email" id = "user_email" name = "user_email" class = "textbox" placeholder = "example@gmail.com" required />
+
                 <br />
                 <br />
+
+                <label for = "person_age">Select Swimmer's Age Range:</label>
+                <select name = "person_age" id = "person_age" required>
+                    <option value = "">--Please select an option--</option>
+                    <option value = "child">Age 6 - 17</option>
+                    <option value = "young_adult">Age 18 - 25</option>
+                    <option value = "adult">Age 26+</option>
+                </select>
+
+                <br />
+                <br />
+
                 <label for = "classes_per_week"># of Classes per Week: </label>
                 <br />
                 <input type = "number" id = "classes_per_week" name = "classes_per_week" class = "textbox" min = "1"  max = "7" step = "1" placeholder = "3" required />
+
                 <br />
                 <br />
+
                 <label for = "class_time">Class Start Time: </label>
                 <br />
                 <input type = "time" id = "class_time" name = "class_time" class = "textbox" required />
+
                 <br />
                 <br />
+
                 <label for = "class_length">Length of Class (hours): </label>
                 <br />
                 <input type = "number" id = "class_length" name = "class_length" class = "textbox" max = "3" min = "0.5" step = "0.1" required />
+                
                 <br />
                 <br />
                 
