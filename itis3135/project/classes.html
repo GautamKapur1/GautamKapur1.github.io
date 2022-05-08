@@ -7,6 +7,7 @@
         </title>
         <link href = "project_styles/default.css" type = "text/css" rel = "stylesheet" />
         <link rel = "shortcut icon" type = "image/png" href = "project_images/pool-openclipart.org.png" />
+        <script src = "project_scripts/project_classes.js"></script>
     </head>
     
     <body>
@@ -30,17 +31,26 @@
                 <br />
                 <label for = "classes_per_week"># of Classes per Week: </label>
                 <br />
-                <input type = "number" id = "classes_per_week" name = "classes_per_week" class = "textbox" placeholder = "3" required />
+                <input type = "number" id = "classes_per_week" name = "classes_per_week" class = "textbox" min = "1"  max = "7" step = "1" placeholder = "3" required />
                 <br />
                 <br />
-                <label for = "class_time">Time: </label>
+                <label for = "class_time">Class Start Time: </label>
                 <br />
                 <input type = "time" id = "class_time" name = "class_time" class = "textbox" required />
                 <br />
                 <br />
-                <p>[Calculate the Cost of the classes using javascript here]</p>
+                <label for = "class_length">Length of Class (hours): </label>
+                <br />
+                <input type = "number" id = "class_length" name = "class_length" class = "textbox" max = "3" min = "0.5" step = "0.1" required />
+                <br />
+                <br />
+                
+                <button id = "calc_cost" onclick = "calcCost();" type = "button" name = "calc_cost_btn">Calculate Cost</button>
+                <p id = "cost"></p>
+
+                <br />
                 <input type = "reset" value = "Reset" class = "button" />
-                <input type = "submit" value = "Send" class = "button" /> 
+                <input type = "submit" value = "Submit" class = "button" /> 
             </form>
             
         </main>
