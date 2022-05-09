@@ -6,6 +6,8 @@ function calcCost()
     var personAge = document.getElementById("person_age");
     var option = personAge.options[personAge.selectedIndex];
 
+    var error = false;
+
     var costPerHrOfClass = 0;
     var count = 0;
     
@@ -15,32 +17,37 @@ function calcCost()
     {
         displayCost.innerHTML += "<strong>Error</strong>: Please enter a valid number of classes per week anywhere between 1 and 7 (Whole Numbers Only!) ";
         count++;
+        error = true;
     }
     if (count > 0)
     {
         if (classLength.value == 0 || classLength.value < 0.5 || classLength.value > 3)
         {
             displayCost.innerHTML += "<p><strong>Error</strong>: Please enter a valid class length (anywhere between 30 minutes and 3 hours).</p>";
+            error = true;
         }
         if (option.value == 0) 
         {
             displayCost.innerHTML += "<p><strong>Error</strong>: Please select the swimmer's age range.</p>";
+            error = true;
         }
     }
     else
     {
         if (classLength.value == 0 || classLength.value < 0.5 || classLength.value > 3)
         {
-            displayCost.innerHTML += "<strong>Error</strong>: Please enter a valid class length (anywhere between 30 minutes and 3 hours).";
+            displayCost.innerHTML += "<p><strong>Error</strong>: Please enter a valid class length (anywhere between 30 minutes and 3 hours).</p>";
+            error = true;
         }
         if (option.value == 0) 
         {
-            displayCost.innerHTML += "<strong>Error</strong>: Please select the swimmer's age range.";
+            displayCost.innerHTML += "<p><strong>Error</strong>: Please select the swimmer's age range.</p>";
+            error = true;
         }
 
     }
     
-    if (classesPerWeek.value != 0 && classLength.value != 0 && option.value != 0) 
+    if (classesPerWeek.value != 0 && classLength.value != 0 && option.value != 0 && !error) 
     {
         //$7.49 per hour of class for child
         //$12.49 per hour of class for young adult
