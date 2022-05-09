@@ -55,21 +55,21 @@ function calcCost()
 
         if (option.value == "child") 
         {
-            costPerHrOfClass = 7.49;
+            costPerHrOfClass = 4.49;
         }
         else if (option.value == "young_adult")
         {
-            costPerHrOfClass = 12.49;
+            costPerHrOfClass = 6.49;
         }
         else if (option.value == "adult")
         {
-            costPerHrOfClass = 14.99;
+            costPerHrOfClass = 9.99;
         }
 
         var hrsClassPerWeek = classesPerWeek.value * classLength.value;
         var cost = hrsClassPerWeek * costPerHrOfClass;
         displayCost.innerHTML += "The cost for 1 hour of class is $" + costPerHrOfClass.toFixed(2) + 
-        "<p><strong>Total Cost: $" + cost.toFixed(2) + "</strong></p>";
+        "<p><strong>Total Weekly Cost: $" + cost.toFixed(2) + "</strong></p>";
 
     }
 }
