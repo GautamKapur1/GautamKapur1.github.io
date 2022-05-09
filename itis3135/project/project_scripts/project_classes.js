@@ -49,9 +49,9 @@ function calcCost()
     
     if (classesPerWeek.value != 0 && classLength.value != 0 && option.value != 0 && !error) 
     {
-        //$7.49 per hour of class for child
-        //$12.49 per hour of class for young adult
-        //$14.99 per hour of class for adult
+        //$4.49 per hour of class for child
+        //$6.49 per hour of class for young adult
+        //$9.99 per hour of class for adult
 
         if (option.value == "child") 
         {
