@@ -88,6 +88,7 @@ textarea
 button, .button
 {
   cursor: pointer;
+  border-radius: 10px;
 }
 
 #tabs div img
